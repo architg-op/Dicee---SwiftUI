@@ -17,11 +17,13 @@ struct ContentView: View {
             .edgesIgnoringSafeArea(.all)
             VStack {
                 Image("diceeLogo")
+                Spacer()
                 HStack {
                     DiceView(diceNumber: 1)
                     DiceView(diceNumber: 2)
                 }
                 .padding(.horizontal)
+                Spacer()
                 Button(action: {
                     
                 }) {
